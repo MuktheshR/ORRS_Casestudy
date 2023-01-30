@@ -34,7 +34,7 @@ public class TrainDetails {
 	private String arrivalTime;
 
 	@NotNull
-	@Size(max = 7, message = "Departure Time should be maximum of 7 characters")
+	@Size(max = 7, message = "Departure time Time should be maximum of 7 characters")
 	private String deptTime;
 	private String duration;
 	private int noOfSeats;
